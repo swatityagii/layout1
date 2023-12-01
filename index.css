@@ -24,6 +24,10 @@
 input{
     height: 30px;
     border: 1px solid rgba(141, 146, 152, 0.5) ;
+    padding: 3px;
+}
+input::placeholder {
+    color: black;
 }
 .searchbar{
     height: 30px;
@@ -31,8 +35,8 @@ input{
 }
 .login{
     color: #007BAF;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-family: 'Roboto', sans-serif;
     position: absolute;
     right: 495px;
     top: 25px;
